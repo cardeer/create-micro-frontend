@@ -1,4 +1,18 @@
 {
+  "name": "create-micro-frontend",
+  "description": "Create a micro front-end application.",
+  "keywords": [
+    "frontend",
+    "front-end",
+    "create micro frontend",
+    "create micro front-end",
+    "micro frontend",
+    "micro front-end"
+  ],
+  "author": {
+    "name": "Siwakorn Mahakan",
+    "email": "cardeer.dev@gmail.com"
+  },
   "bin": {
     "create-micro-frontend": "bin/create-micro-frontend.js"
   },
