@@ -1,0 +1,22 @@
+{
+  "bin": {
+    "create-micro-frontend": "bin/create-micro-frontend.js"
+  },
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node bin/create-micro-frontend.js",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "glob": "^8.0.3",
+    "inquirer": "8.2.4",
+    "ncp": "^2.0.0",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1",
+    "@types/ncp": "^2.0.5",
+    "@types/shelljs": "^0.8.11"
+  }
+}
