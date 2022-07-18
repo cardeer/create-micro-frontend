@@ -3,3 +3,4 @@ bin/**/*.js
 src/constants/**/*.js
 src/*.js
 micro-frontend
+**/.DS_Store
