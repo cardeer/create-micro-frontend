@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "name": "create-micro-frontend",
+  "name": "create-webpack-mf",
   "description": "Create a micro front-end application.",
   "keywords": [
     "frontend",
