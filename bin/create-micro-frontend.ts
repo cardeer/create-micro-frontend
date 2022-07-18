@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import inquirer from "inquirer";
 import {
   ProjectTemplate,
@@ -5,6 +7,7 @@ import {
   IPrompt,
 } from "../src/constants/prompt";
 import main from "../src/main";
+import * as path from "path";
 
 (async function () {
   try {
@@ -23,7 +26,7 @@ import main from "../src/main";
       },
     ]);
 
-    main(answers as IPrompt);
+    main(answers as IPrompt, path.join(__dirname, ".."));
   } catch (e) {
     console.log(e);
   }
